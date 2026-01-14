@@ -44,8 +44,8 @@ Jump Host
 
 App Servers
 🖥️ stapp01 → user: tony
-🖥️ stapp02 → user: tony
-🖥️ stapp03 → user: tony
+🖥️ stapp02 → user: steve
+🖥️ stapp03 → user: banner
 
 ---
 
@@ -96,7 +96,7 @@ You will enter the password **only once**.
 🔹 **Step 4: Copy Public Key to App Server 2**
 
 ```bash
-ssh-copy-id tony@stapp02
+ssh-copy-id steve@stapp02
 ```
 
 ---
@@ -104,7 +104,7 @@ ssh-copy-id tony@stapp02
 🔹 **Step 5: Copy Public Key to App Server 3**
 
 ```bash
-ssh-copy-id tony@stapp03
+ssh-copy-id banner@stapp03
 ```
 
 ---
@@ -113,8 +113,8 @@ ssh-copy-id tony@stapp03
 
 ```bash
 ssh tony@stapp01
-ssh tony@stapp02
-ssh tony@stapp03
+ssh steve@stapp02
+ssh banner@stapp03
 ```
 
 ✅ You should not be asked for any password.
