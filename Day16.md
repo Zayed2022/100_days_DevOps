@@ -259,5 +259,3 @@ Click the **StaticApp** button from the KodeKloud interface.
 
 ---
 
-
-Just say **next** 💪
